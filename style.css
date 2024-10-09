@@ -104,19 +104,26 @@
 
 @media (max-width: 600px) {
   .container {
-    padding-left: 5%;
+    padding: 4% 5%;
+    /* Reduced padding */
   }
 
   .container h1 {
     font-size: 28px;
+    /* Adjusted font size */
   }
 
   .input-box {
     min-height: 100px;
+    /* Adjusted min height for input box */
+    margin: 10px 5%;
+    /* Adjust margin for input box */
   }
 
   .container button {
     padding: 10px 15px;
+    /* Adjusted button padding */
     font-size: 14px;
+    /* Adjusted button font size */
   }
 }
